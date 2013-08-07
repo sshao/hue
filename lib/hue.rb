@@ -7,9 +7,9 @@ require 'hue/translate_keys'
 require 'hue/light'
 require 'hue/group'
 require 'hue/scene'
-require 'hue/rgb'
-require 'hue/hsl'
-require 'hue/hexrgb'
+require 'hue/color/rgb'
+require 'hue/color/hsl'
+require 'hue/color/hexrgb'
 
 module Hue
   USERNAME_RANGE = 10..40
